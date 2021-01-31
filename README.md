@@ -37,3 +37,9 @@ This is a Spring Boot application, so:
 ```./mvnw spring-boot:run```
 
 You can try your application by visiting ```localhost:8080``` & ```localhost:8080/items```
+
+# Exercise 02
+Add a dependency to [Apache Commons Collections](https://mvnrepository.com/artifact/org.apache.commons/commons-collections4/4.4)
+
+Replace the ```null``` & empty check in ```BusinessPresentation``` with a null-safe empty check in
+[```CollectionUtils.isEmpty```](https://commons.apache.org/proper/commons-collections/apidocs/org/apache/commons/collections4/CollectionUtils.html#isEmpty-java.util.Collection-)
