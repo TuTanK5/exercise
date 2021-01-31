@@ -37,3 +37,8 @@ This is a Spring Boot application, so:
 ```./mvnw spring-boot:run```
 
 You can try your application by visiting ```localhost:8080``` & ```localhost:8080/items```
+
+# Exercise 03
+A new bean named ```BusinessValidation``` has been added to the project and is used in ```BusinessPresentation```.
+
+However, some configurations are missing, so the application context fails to load. Fix it!
