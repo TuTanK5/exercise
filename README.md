@@ -37,3 +37,8 @@ This is a Spring Boot application, so:
 ```./mvnw spring-boot:run```
 
 You can try your application by visiting ```localhost:8080``` & ```localhost:8080/items```
+
+# Exercise 01
+Change the greeting message to: **"Greetings from Maven & Spring Exercises!"**
+
+Always run ```./mvnw clean install``` to make sure that the code still compiles & all tests pass!
